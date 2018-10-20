@@ -16,7 +16,7 @@ let k = 110;
 module.exports = (app) => {
     return {
         schedule: {
-            interval: '5s',
+            interval: '100s',
             type: 'all'
         },
 
@@ -28,7 +28,7 @@ module.exports = (app) => {
         ctx.app.cache = res.data */
 
             k++
-            console.log('k', k, res)
+            console.log('k', k)
         }
 
     }
